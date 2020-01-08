@@ -1,0 +1,23 @@
+version: "3.6"
+
+services:
+    telefoni-site:
+        container_name: "telefoni-api"
+        build: .
+        volumes:
+            - ../telefoni-za-vas:/var/www/
+            - ../log:/var/www/storage/logs
+        ports:
+            - "8080:80"
+    db:
+        image: mariadb
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: example
+    adminer:
+        image: adminer
+        restart: always
+        ports:
+            - 8081:8080
+        volumes:
+            - ../db:/var/lib/mysql
