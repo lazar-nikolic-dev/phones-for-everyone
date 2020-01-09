@@ -1,3 +1,3 @@
 <?php
 
-$router->get('/api/phones', "PhonesController@getPhones");
+$router->post('/api/phones', "PhonesController@getPhones");
