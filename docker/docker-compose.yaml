@@ -14,10 +14,10 @@ services:
         restart: always
         environment:
             MYSQL_ROOT_PASSWORD: example
+        volumes:
+            - ../db:/var/lib/mysql
     adminer:
         image: adminer
         restart: always
         ports:
             - 8081:8080
-        volumes:
-            - ../db:/var/lib/mysql
