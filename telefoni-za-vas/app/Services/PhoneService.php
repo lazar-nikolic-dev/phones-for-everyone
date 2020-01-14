@@ -8,7 +8,8 @@ class PhoneService
 {
     protected $rangeMappings = [
         "cena",
-        "baterija"
+        "baterija",
+        "kamera"
     ];
 
     public function getPhones(array $conditions)
@@ -16,9 +17,13 @@ class PhoneService
         $phonesQuery = DB::table('telefoni');
         foreach ($conditions as $key => $value) {
             if (in_array($key, $this->rangeMappings)) {
-                $phonesQuery = $phonesQuery->whereBetween($key, $value);
+                $phonesQuery = $phonesQuery->where(function ($query) use ($value, $key) {
+                    foreach ($value as $range) {
+                        $query = $query->orWhereBetween($key, $range);
+                    }
+                });
             } else {
-                $phonesQuery = $phonesQuery->where($key, $value);
+                $phonesQuery = $phonesQuery->whereIn($key, $value);
             }
         }
         $searchedPhones = $phonesQuery->get();

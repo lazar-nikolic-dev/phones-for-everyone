@@ -159,39 +159,163 @@
 
       <div class=“container”>
 
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <h3>Card 1</h3>
-              <p>Some text</p>
-              <p>Some text</p>
-            </div>
-          </div>
-        
-          <div class="column">
-            <div class="card">
-              <h3>Card 2</h3>
-              <p>Some text</p>
-              <p>Some text</p>
-            </div>
-          </div>
+   <table> 
+      <th><center>Samsung S10 <br>Cena: 75 500 din</center>
+      <th><center>Samsung Note 10 <br>Cena: 92 000 din</center></th>
+      <th><center>Samsung S9 <br>Cena: 64 000 din</center></th>
+      <th><center>Samsung S8<br>Cena: 58 700 din</center></th>
+      
+      
+     <tr>
+      
+       <td><img src="/images/s10png.png"title="Samsung S10" alt="alt text here" width="200 px" height = ""></td>
+       <td><img src="images/note10png.png"title="Samsung Note10" alt="alt text here" width="200 px" height = ""></td>
+       <td><img src="images/s9png.png"title="Samsung S9" alt="alt text here" width="200 px" height = ""></td>
+       <td><img src="images/s8png.png"title="SamsungS8" alt="alt text here" width="200 px" height = ""></td>
+      
+      </tr>
+     <tr>
+     <td><center><b>Samsung A70<br>Cena: 40 000 din</b></center><img src="images/a70png.png"title="Samsung A70" alt="alt text here" width="200 px" height = ""></td>
+       <td><center><b>Samsung A50<br>Cena: 33 200 din</b></center><img src="images/a50png.png"title="Samsung A50" alt="alt text here" width="200 px" height = ""></td>
+       <td><center><b>Samsung A30<br>Cena: 27 200 din</b></center><img src="images/a30png.png"title="Samsung A30" alt="alt text here" width="200 px" height = ""></td>
+       <td><center><b>Samsung M20<br>Cena: 25 600 din</b></center><img src="images/m20png.png"title="Samsung M20" alt="alt text here" width="200 px" height = ""></td>
+     
+
+     </tr>
+   </table>
+
+    <br>
+    
+
+    <table>  
+        <th><center>Iphone X<br>Cena: 82 000 din</center></th>
+        <th><center>Iphone 11<br>Cena: 85 000 din</center></th>
+        <th><center>Iphone Xs Max<br>Cena: 103 000 din</center></th>
+        <th><center>Iphone Xr<br>Cena: 71 000 din</center></th>
+        <tr>
+      
+            <td><img src="images/xpng.png"title="Iphone x" alt="alt text here" width="200 px" height = ""></td>
+            <td><img src="images/11png.png"title="Iphone 11" alt="alt text here" width="200 px" height = ""></td>
+            <td><img src="images/xsmaxpng.png"title="Iphone Xs Max" alt="alt text here" width="200 px" height = ""></td>
+            <td><img src="images/xrpng.png"title="Iphone Xr" alt="alt text here" width="200 px" height = ""></td>
+           
+           </tr>
+
+    </table>
+       
+    <table>  
+      <th><center>Honor View 20<br>Cena: 46 600 din</center></th>
+      <th><center>Honor 9x<br>Cena: 33 700 din</center></th>
+      <th><center>Huawei Mate 20<br>Cena: 46 800 din</center></th>
+      <th><center>Honor 10<br>Cena: 33 000 din</center></th>
+      <tr>
+    
+          <td><img src="images/20viewpng.png"title="Honor 20 View" alt="alt text here" width="200 px" height = ""></td>
+          <td><img src="images/9xpng.png"title="Honor 9x" alt="alt text here" width="200 px" height = ""></td>
+          <td><img src="images/mate20png.png"title="Huawei Mate 20" alt="alt text here" width="200 px" height = ""></td>
+          <td><img src="images/honor10png.png"title="Honor 10 " alt="alt text here" width="200 px" height = ""></td>
           
-          <div class="column">
-            <div class="card">
-              <h3>Card 3</h3>
-              <p>Some text</p>
-              <p>Some text</p>
-            </div>
-          </div>
-          
-          <div class="column">
-            <div class="card">
-              <h3>Card 4</h3>
-              <p>Some text</p>
-              <p>Some text</p>
-            </div>
-          </div>
-        </div>
+         
+         </tr>
+
+  </table>
+
+  <table>  
+    <th><center>Honor Y5 2019<br>Cena: 13 200 din</center></th>
+    <th><center>Honor 8A<br>Cena: 14 400 din</center></th>
+    <th><center>Honor 20 Lite<br>Cena: 29 800 din</center></th>
+    <th><center>Huawei P30 Pro<br>Cena: 89 300 din</center></th>
+    <tr>
+  
+        <td><img src="images/y52019png.png"title="Honor Y5 2019" alt="alt text here" width="200 px" height = ""></td>
+        <td><img src="images/8apng.png"title="Honor 8A" alt="alt text here" width="200 px" height = ""></td>
+        <td><img src="images/20lite.png"title="Honor 20 Lite 128GB" alt="alt text here" width="200 px" height = ""></td>
+        <td><img src="images/p30pro.png"title="Huawei P30 Pro" alt="alt text here" width="136 px" height = ""></td>
+       </tr>
+
+</table>
+   
+<table>  
+  <th><center>Nokia 5.1 Plus <br>Cena: 18 400 din</center></th>
+  <th><center>Nokia 6.2 Dual<br>Cena: 29 100 din</center></th>
+  <th><center>Xiaomi Redmi Note 8 Pro<br>Cena: 28 200 din</center></th>
+  <th><center>Xiaomi Mi 9T<br>Cena: 35 600 din</center></th>
+  <tr>
+
+      <td><img src="images/nokia5.1plus.png"title="Nokia 5.1 Plus Dual Sim" alt="alt text here" width="200 px" height = ""></td>
+      <td><img src="images/nokia6.2.png"title="Nokia 6.2 Dual Sim" alt="alt text here" width="150 px" height = ""></td>
+      <td><img src="images/redminote8pro.png"title="Redmi Note 8 Pro Dual Sim" alt="alt text here" width="240 px" height = ""></td>
+      <td><img src="images/mi9t.png"title="Xiaomi Mi 9T Dual Sim" alt="alt text here" width="230 px" height = ""></td>
+     </tr>
+
+</table>
+
+<table>  
+  <th><center>Xiaomi Redmi Note 8  <br>Cena: 22 000 din</center></th>
+  <th><center>Xiaomi Mi Note 10 <br>Cena: 66 000 din</center></th>
+  <th><center>Xiaomi Redmi Note 7 <br>Cena: 18 400 din</center></th>
+  <th><center>Xiaomi Mi 9SE <br>Cena: 33 900 din</center></th>
+  <tr>
+
+      <td><img src="images/redminote8.png"title="Xiaomi Redmi Note 8 Dual Sim" alt="alt text here" width="190 px" height = ""></td>
+      <td><img src="images/minote10.png"title="Xiaomi Mi Note10" alt="alt text here" width="220 px" height = ""></td>
+      <td><img src="images/note7.png"title="Redmi Note 7 Dual Sim" alt="alt text here" width="200 px" height = ""></td>
+      <td><img src="images/mi9se.png"title="Xiaomi Mi 9SE" alt="alt text here" width="220 px" height = ""></td>
+     </tr>
+
+</table>
+
+
+<table>  
+  <th><center>Xiaomi Mi 9 <br>Cena: 43 600 din</center></th>
+  <th><center>Xiaomi Mi Mix 2 <br>Cena: 18 400 din</center></th>
+  <th><center>Xiaomi Mi A3 <br>Cena: 22 000 din</center></th>
+  <th><center>Xiaomi Redmi 8A <br>Cena: 14 400 din</center></th>
+  <tr>
+
+      <td><img src="images/mi9.png"title="Xiaomi Mi 9" alt="alt text here" width="220 px" height = ""></td>
+      <td><img src="images/mimix2.png"title="Xiaomi Mi Mix 2" alt="alt text here" width="220 px" height = ""></td>
+      <td><img src="images/mia3.png"title="Xiaomi Mi A3" alt="alt text here" width="240 px" height = ""></td>
+      <td><img src="images/redmi8a.png"title="Xiaomi Redmi 8A " alt="alt text here" width="200 px" height = ""></td>
+      
+     
+     </tr>
+
+</table>
+
+<table>  
+  <th><center>LG V40 ThinQ <br>Cena: 51 700 din</center></th>
+  <th><center>LG W30 <br>Cena: 19 600 din</center></th>
+  <th><center>Motorola Moto One Action <br>Cena: 27 200 din</center></th>
+  <th><center>Motorola Moto E6 <br>Cena: 16 000 din</center></th>
+  <tr>
+
+      <td><img src="images/lgv40.png"title="Lg V40 ThinQ" alt="alt text here" width="160 px" height = ""></td>
+      <td><img src="images/lgw30.png"title="Lg W30"alt ="alt text here" width="200 px" height = ""></td>
+      <td><img src="images/motooneaction.png"title="Motorola Moto One Action" alt="alt text here" width="240 px" height = ""></td>
+      <td><img src="images/motoe6.png"title="Motorola Moto E6 " alt="alt text here" width="300 px" height = ""></td>
+      
+     
+     </tr>
+
+</table>
+
+<table>  
+  <th><center>Xperia 10 <br>Cena: 38 700 din</center></th>
+  <th><center>Xperia 5 <br>Cena: 74 000 din</center></th>
+  <th><center>Vivo Nex 3 <br>Cena: 68 500 din</center></th>
+  <th><center>Vivo Z3x <br>Cena: 18 800 din</center></th>
+  <tr>
+
+      <td><img src="images/xperia10.png"title="Xperia 10" alt="alt text here" width="260 px" height = ""></td>
+      <td><img src="images/xperia5.png"title="Xperia 5"alt ="alt text here" width="220 px" height = ""></td>
+      <td><img src="images/vivonex3.png"title="Vivo Nex 3"alt ="alt text here" width="240 px" height = ""></td>
+      <td><img src="images/vivoz3x.png"title="Vivo Z3x " alt="alt text here" width="160 px" height = ""></td>
+      
+     
+     </tr>
+
+</table>
 
 
       </div>
