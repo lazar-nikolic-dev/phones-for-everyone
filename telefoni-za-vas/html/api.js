@@ -8,25 +8,13 @@ let dataModel = {
     memorija: [],
     baterija: []
 };
+let formIndex = 0;
 
 let rangeProps = ["cena", "kamera", "baterija"];
 
 $("input[type=checkbox]").change(function() {
     if (this.checked) {
         addPropertyValue(this.id, this.className);
-        let posting = $.post(
-            "/api/phones",
-            JSON.stringify(dataModel, function(key, value) {
-                if (typeof value !== "undefined" && value.length === 0) {
-                    return undefined;
-                }
-
-                return value;
-            })
-        );
-        posting.done(function(data) {
-            refreshPhones(data);
-        });
     }
 });
 
@@ -61,3 +49,48 @@ function addPhoneElement(cena, model, slika) {
     card.appendTo(column);
     column.appendTo(".row");
 }
+
+function initializeForms() {
+    $(".form-group").each(function(index) {
+        $(this).hide();
+    });
+    $($(".form-group")[0]).show();
+}
+
+function displayForm(isNext) {
+    let currentForm = $(".form-group");
+    if (isNext && formIndex < 7) {
+        $(currentForm[formIndex]).hide();
+        formIndex++;
+        $(currentForm[formIndex]).show();
+    } else if (isNext == false && formIndex > 0) {
+        $(currentForm[formIndex]).hide();
+        formIndex--;
+        $(currentForm[formIndex]).show();
+    }
+
+    if (formIndex == 7) {
+        $("#phonesForm").hide();
+        retrievePhones();
+    }
+}
+
+function retrievePhones() {
+    let posting = $.post(
+        "/api/phones",
+        JSON.stringify(dataModel, function(key, value) {
+            if (typeof value !== "undefined" && value.length === 0) {
+                return undefined;
+            }
+
+            return value;
+        })
+    );
+    posting.done(function(data) {
+        refreshPhones(data);
+    });
+}
+
+$(document).ready(function() {
+    initializeForms();
+});
